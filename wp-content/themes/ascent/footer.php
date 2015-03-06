@@ -13,7 +13,7 @@
 
 <a href="#top" id="scroll-top"></a>
 
-<div class="text-center">Yet this is not the end, it's just a new start.</div>
+<div class="footer-text text-center">Yet this is not the end, it's just a new start.</div>
 <br>
 
 <?php wp_footer(); ?>

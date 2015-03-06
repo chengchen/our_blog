@@ -911,6 +911,11 @@ article .footer-meta {
     letter-spacing: 9px;
 }
 
+/* Footer */
+.footer-text {
+    font-style: italic;
+    font-weight: 100;
+}
 
 /* = Form Elements
 ---------------------------------------------------------------------------------- */
