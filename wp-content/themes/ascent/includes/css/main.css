@@ -329,10 +329,10 @@ a, a:link {
 }
 .site-branding h1.site-title a {
     font-weight: bold;
-    color: #1ABC9C;
+    color: #4d5969;
 }
 .site-branding h1.site-title a:hover {
-    color: #3A3C41;
+    color: #7c90a9;
 }
 .site-branding .site-description {
     font-size: 12px;
@@ -1200,10 +1200,10 @@ label {
     .mean-container .mean-bar {
 	margin-top: 0px;
 	min-height: inherit;
-	background-color: #1ABC9C;
+	background-color: #7c90a9;
     }
     .mean-container .mean-bar .meanmenu-reveal {
-      background: #1ABC9C;
+      background: #7c90a9;
     }
     .mean-container .mean-bar .mean-nav ul li a {
       border-color: rgba(255,255,255,0.1);
