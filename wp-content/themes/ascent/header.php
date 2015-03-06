@@ -24,18 +24,6 @@
 <body <?php body_class(); ?>>
   <?php do_action( 'before' ); ?>
 <header id="masthead" class="site-header" role="banner">
-    <div class="header-top">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <!-- do not know what to do yet -->
-                </div><!-- .col-sm-6-->
-                <div class="col-sm-6">
-                    <!-- do not know what to do yet -->
-                </div><!-- .col-sm-6-->
-            </div>
-        </div>
-    </div>
     <div class="header-bottom">
         <div class="header-bottom-inner">
             <div class="container">
