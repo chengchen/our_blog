@@ -13,16 +13,16 @@ body {
     word-wrap: break-word;
 }
 ::selection {
-    background: #1ABC9C;
+    background: #4d5969;
     color: #FFF;
 }
 ::-moz-selection {
-    background: #1ABC9C;
+    background: #4d5969;
     color: #FFF;
 }
 a {
     outline: 0;
-    color: #1ABC9C;
+    color: #7c90a9;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -43,7 +43,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     color: #3A3C41;
 }
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
-    color: #1ABC9C;
+    color: #4d5969;
     text-decoration: none;
 }
 
@@ -53,7 +53,7 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
   font-size: 14px;
   font-weight: normal;
   text-transform: uppercase;
-  background-color: #1ABC9C;
+  background-color: #91a9c6;
   padding: 10px 30px;
   color: #FFF;
   text-decoration: none;
@@ -81,7 +81,7 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
   background-color: #3a3c41;
 }
 .read-more.black:hover {
-  background-color: #1ABC9C;
+  background-color: #4d5969;
 }
 .read-more.red {
   background-color: #EA3200;
@@ -149,7 +149,7 @@ img[class*="wp-image-"] {
 .wp-caption {
     margin-bottom: 10px;
     max-width: 100%;
-    border: 1px solid #1ABC9C;
+    border: 1px solid #4d5969;
     border-radius: 4px;
     -mo-zborder-radius: 4px;
     -webkit-border-radius: 4px;
@@ -179,7 +179,7 @@ img[class*="wp-image-"] {
     margin: 0;
 }
 .gallery .gallery-item img {
-    border: 2px solid #1ABC9C!important;
+    border: 2px solid #4d5969 !important;
     -webkit-transition: all 0.4s ease;
     -moz-transition: all 0.4s ease;
     -o-transition: all 0.4s ease;
@@ -194,7 +194,7 @@ img[class*="wp-image-"] {
     transition: all 0.4s ease;
 }
 .gallery-caption {
-    background-color: rgba(26, 188, 156, 0.7);
+    background-color: rgba(145, 169, 198, 0.69);
     -webkit-box-sizing: border-box;
     -moz-box-sizing:    border-box;
     box-sizing:         border-box;
@@ -337,20 +337,6 @@ a, a:link {
 .site-branding .site-description {
     font-size: 12px;
     margin: 6px 0 0 0;
-}
-.header-top {
-    background: #3A3C41;
-    min-height: 35px;
-    border-top: 4px solid #1ABC9C;
-    color: #FFF;
-    font-size: 12px;
-    padding: 8px 0;
-}
-.header-top a {
-    color: #FFF;
-}
-.header-top a:hover {
-    color: #1ABC9C;
 }
 .mail-info .phone-info {
     padding-right: 10px;
@@ -526,11 +512,11 @@ nav.main-menu ul .current_page_item > a {
   background: #bc5260;
 }
 .pager li > a:hover, .pager li > a:focus {
-    background-color: #bc5260;
-    border-color: #bc5260;
+  background-color: #bc5260;
+  border-color: #bc5260;
 }
 .nav > li > a:hover, .nav > li > a:focus {
-    background-color: #E7F6F3;
+  color: #4d5969;
 }
 
 
@@ -606,7 +592,7 @@ body.page .page-header h1.entry-title {
 }
 #home-slider .slide-content .btn {
   padding: 10px 30px;
-  background-color: #1ABC9C;
+  background-color: #4d5969;
   text-transform: uppercase;
   font-size: 14px;
 }
@@ -639,7 +625,7 @@ table td {
     padding: 7px 15px;
 }
 table thead {
-    background-color: #1ABC9C;
+    background-color: #7c90a9;
     border: 0;
     font-weight: 700;
     color: #3a3c41;
@@ -653,17 +639,17 @@ table thead tr:first-child {
 }
 table thead th {
     border: 0;
-    border-right: 1px solid #62C7B3;
+    border-right: 1px solid #7c90a9;
     color: #FFF;
     font-size: 13px;
     font-weight: 700;
     padding: 7px 15px;
 }
 table thead th:first-child {
-    border-left: 1px solid #62C7B3;
+    border-left: 1px solid #7c90a9;
 }
 table thead th:last-child {
-    border-right: 1px solid #62C7B3;
+    border-right: 1px solid #7c90a9;
 }
 table tbody tr {
     border-top: 1px solid #e0e0e0;
@@ -725,57 +711,6 @@ article.attachment .entry-header  #image-navigation .nav-next {
 }
 
 
-/* =Footer
----------------------------------------------------------------------------------- */
-#colophon {
-    background: #3A3C41;
-    border-top: 15px solid #1ABC9C;
-    color: #FFF;
-}
-#colophon a {
-    color: #CCC;
-}
-.site-footer-inner {
-    padding: 30px 0;
-}
-#colophon aside.widget {
-    background: transparent;
-    color: #fff;
-    float: left;
-    margin-right: 5%;
-    width: 20%;
-}
-#colophon select, #colophon aside.widget select {
-    color: #333;
-}
-#colophon .nav > li > a:hover,
-#colophon .nav > li > a:focus {
-    background-color: #38393C;
-}
-#footer-info {
-    background: #292A2F;
-    padding: 10px 0;
-    font-size: 12px;
-}
-#colophon .widget_calendar table {
-    width: 100%;
-}
-#colophon .widget_calendar table caption {
-    color: #aab4bf;
-}
-#colophon .widget_calendar table th,
-#colophon .widget_calendar table td {
-    padding: 6px 10px;
-    background: transparent;
-}
-#colophon .widget_calendar table a:hover {
-    color: #1ABC9C;
-}
-#colophon .widget .widget-title {
-    font-size: 20px;
-    padding-bottom: 20px;
-}
-
 /* =Post Images
 ---------------------------------------------------------------------------------- */
 .post figure {
@@ -805,7 +740,8 @@ a#scroll-top {
     width: 42px;
     z-index: 9999;
     line-height: 3em;
-    background: #1ABC9C url("../images/scroll-top.png") center center no-repeat;
+    opacity: 0.4;
+    background: #91a9c6 url("../images/scroll-top.png") center center no-repeat;
     -webkit-transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
     -o-transition: all 0.25s ease-in-out;
@@ -1026,7 +962,7 @@ body .form-control:focus {
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    border: 2px solid #1ABC9C;
+    border: 2px solid #7c90a9;
     box-shadow: none;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
@@ -1050,7 +986,7 @@ select:focus {
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    border: 2px solid #1ABC9C;
+    border: 2px solid #7c90a9;
     box-shadow: none;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
@@ -1078,7 +1014,7 @@ body input[type="submit"] {
 }
 body input[type="submit"]:hover,
 body input[type="submit"]:focus {
-    background-color: #1ABC9C;
+    background-color: #91a9c6;
     color: #FFF;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -1212,10 +1148,10 @@ label {
       height: 24px;
     }
     .mean-container .mean-bar .mean-nav ul li a.mean-expand:hover {
-      background-color: #17A88B;
+      background-color: #7c90a9;
     }
     .mean-container .mean-bar .mean-nav ul li a.meanmenu-reveal {
-      background-color: #1ABC9C;
+      background-color: #7c90a9;
       padding: 13px 14px;
       top: -40px;
     }
