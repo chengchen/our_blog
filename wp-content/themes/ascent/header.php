@@ -28,32 +28,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <div class="mail-info">
-			<?php if(of_get_option('phone_number')): ?>
-			    <span class="phone-info"><i class="fa fa-phone"></i> <?php echo of_get_option('phone_number'); ?></span>
-			<?php endif; ?>
-			<?php if(of_get_option('email_id')): ?>
-			    <span><i class="fa fa-envelope"></i> <a href="mailto:<?php echo of_get_option('email_id'); ?>"><?php echo of_get_option('email_id'); ?></a></span>
-			<?php endif; ?>
-                    </div>
+                    <!-- do not know what to do yet -->
                 </div><!-- .col-sm-6-->
                 <div class="col-sm-6">
-                    <div class="header-social-icon-wrap">
-                        <ul class="social-icons">
-			    <?php
-				$socialmedia_navs= ascent_socialmedia_navs();
-				foreach($socialmedia_navs as $socialmedia_url => $socialmedia_icon) {
-				    if (of_get_option($socialmedia_url)) {
-					echo '<li class="social-icon"><a target="_blank" href="' . of_get_option($socialmedia_url) . '"><i class="'.$socialmedia_icon.'"></i></a></li>';
-				    }
-				}
-			    ?>
-                        </ul>
-                    </div><!--.header-social-icon-wrap-->
+                    <!-- do not know what to do yet -->
                 </div><!-- .col-sm-6-->
             </div>
         </div>
-     </div>
+    </div>
     <div class="header-bottom">
         <div class="header-bottom-inner">
             <div class="container">
@@ -74,11 +56,7 @@
                             </div>
                         </div>
                     </div><!--.col-sm-3-->
-                  
                     <div class="col-sm-9">
-                        <div class="header-search pull-right">
-                            <div id="header-search-button"><i class="fa fa-search"></i></div>
-                        </div>
                         <div class="site-navigation pull-right">
 			    <nav class="main-menu">
 				<?php
@@ -96,12 +74,10 @@
             </div><!-- .container -->
         </div><!--.header-bottom-inner-->
     </div><!--.header-bottom-->
-  <?php include_once 'header-searchform.php' ?>
 </header><!-- #masthead -->
 
 <?php include_once 'header-banner.php' ?>
-  
+
 <div class="main-content">  
     <div class="container">
         <div id="content" class="main-content-inner">
-	    
