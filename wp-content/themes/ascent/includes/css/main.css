@@ -779,14 +779,15 @@ article.post .entry-content {
     display: inline-block;
     margin-bottom: 2px;
     font-size: 12px;
-} 
+    font-style: italic;
+}
 .loop-more-link  {
     margin-bottom: 10px;
 }
 .entry-content blockquote {
     background: #E7F6F3;
     padding: 20px 20px 20px 30px;
-    border-left: 5px solid #1ABC9C;
+    border-left: 5px solid #4d5969;
     font-family: 'PT Sans', serif;
     font-style: italic;
     font-size: 16px;
@@ -801,13 +802,13 @@ article.post .entry-content {
 }
 .post-meta-info .entry-meta {
     margin-right: 20px;
-    border-top: 2px solid #1ABC9C;
-    background-color: #E7F6F3;
+    border-top: 2px solid #AFC2DA;
+    background-color: #F5F4EC;
 }
 .post-meta-info .entry-meta time {
     padding: 18px 0 20px;
     font-size: 18px;
-    color: #3a3c41;
+    color: #5C616F;
     display: block;
     text-align: center;
     font-weight: 500;
@@ -823,7 +824,7 @@ article.post .entry-content {
     display: block;
     padding: 14px 0 18px;
     text-align: center;
-    background-color: #1ABC9C;
+    background-color: #bc5260;
 }
 .post-meta-info .entry-meta .comments_count a {
     display: inline-block;

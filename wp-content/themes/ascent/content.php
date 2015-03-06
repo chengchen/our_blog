@@ -38,7 +38,6 @@
 	<?php if ( is_search() || is_archive() ) : // Only display Excerpts for Search and Archive Pages ?>
 	    <div class="entry-summary">
 		<?php the_excerpt(); ?>
-		<a class="read-more" href="<?php the_permalink(); ?>"><?php _e('Read More &rarr;', 'ascent'); ?></a>
 	    </div><!-- .entry-summary -->
 	    
 	<?php else : ?>
@@ -67,8 +66,6 @@
 			'after'  => '</div>',
 		    ) );
 		?>
-		<a class="read-more" href="<?php the_permalink(); ?>"><?php _e('Read More &rarr;', 'ascent'); ?></a>
-		
 	    </div><!-- .entry-content -->
 	<?php endif; ?>
     
