@@ -51,7 +51,7 @@
 				wp_nav_menu(array(
 				    'theme_location' => 'main-menu',
 				    'container' => false,
-				    'menu_class' => 'header-nav clearfix'
+				    'menu_class' => 'header-nav clearfix text-uppercase'
 				));
 				?>
 			    </nav>
