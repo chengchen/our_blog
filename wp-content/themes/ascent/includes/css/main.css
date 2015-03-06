@@ -61,7 +61,7 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
 }
 .read-more:hover {
   color: #FFF;
-  background-color: #3a3c41;
+  background-color: #394D64;
   text-decoration: none;
   -webkit-transition: all .25s ease-in-out;
   -moz-transition: all .25s ease-in-out;
@@ -75,10 +75,10 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
 }
 .read-more.outline:hover {
   background-color: #FFF;
-  color: #3a3c41;
+  color: #394D64;
 }
 .read-more.black {
-  background-color: #3a3c41;
+  background-color: #394D64;
 }
 .read-more.black:hover {
   background-color: #4d5969;
@@ -87,7 +87,7 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
   background-color: #EA3200;
 }
 .read-more.red:hover {
-  background-color: #3a3c41;
+  background-color: #394D64;
   color: #FFF;
 }
 .read-more.orange {
@@ -585,7 +585,7 @@ body.page .page-header h1.entry-title {
 }
 #home-slider .slide-content p {
   font-size: 18px;
-  color: #3a3c41;
+  color: #394D64;
   margin-bottom: 20px;
   line-height: 26px;
   color: #FFF;
@@ -618,7 +618,7 @@ table {
     border-top: 0;
     font-size: 13px;
     background-color: #FFF;
-    color: #3a3c41;
+    color: #394D64;
 }
 table th,
 table td {
@@ -628,7 +628,7 @@ table thead {
     background-color: #7c90a9;
     border: 0;
     font-weight: 700;
-    color: #3a3c41;
+    color: #394D64;
     padding: 0 1px;
 }
 table thead tr {
@@ -657,12 +657,12 @@ table tbody tr {
 table tbody th {
     font-size: 13px;
     font-weight: 700;
-    color: #3a3c41;
+    color: #394D64;
 }
 table tbody td {
     font-size: 13px;
     font-weight: 500;
-    color: #3a3c41;
+    color: #394D64;
     border: 1px solid #e0e0e0;
     padding: 5px 7px;
 }
@@ -785,9 +785,9 @@ article.post .entry-content {
     margin-bottom: 10px;
 }
 .entry-content blockquote {
-    background: #E7F6F3;
+    background: #F7F7F7;
     padding: 20px 20px 20px 30px;
-    border-left: 5px solid #4d5969;
+    border-left: 5px solid #D1E0F0;
     font-family: 'PT Sans', serif;
     font-style: italic;
     font-size: 16px;
@@ -887,15 +887,12 @@ article .footer-meta {
     font-size: 12px;
 }
 .comment a.btn {
-    background: #1ABC9C;
-    border-color: #1ABC9C;
+    background: #394D64;
+    border-color: #394D64;
 }
 .comment a.btn:hover {
-    background: #3A3C41;
-    border-color: #3A3C41;
-}
-.comment-form .alert-info {
-    background-color: #E7F6F3;
+    background: #7c90a9;
+    border-color: #7c90a9;
 }
 .error-404 {
     margin-bottom: 40px;
@@ -934,7 +931,7 @@ body .form-control {
     background-color: #FFF;
     margin-bottom: 20px;
     padding: 11px 10px;
-    color: #3a3c41;
+    color: #394D64;
     font-weight: 500;
     border-radius: 0;
     -moz-border-radius: 0;
@@ -994,12 +991,12 @@ select:focus {
 }
 body input[type="file"] {
     margin-bottom: 30px;
-    color: #3a3c41;
+    color: #394D64;
 }
 
 body input[type="submit"] {
     padding: 12px 25px;
-    background-color: #3a3c41;
+    background-color: #394D64;
     font-size: 13px;
     color: #FFF;
     font-weight: 700;

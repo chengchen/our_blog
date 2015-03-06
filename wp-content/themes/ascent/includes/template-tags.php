@@ -31,25 +31,7 @@ function ascent_content_nav( $nav_id ) {
 
     ?>
     <nav role="navigation" id="<?php echo esc_attr( $nav_id ); ?>" class="<?php echo $nav_class; ?>">
-	<h1 class="screen-reader-text"><?php _e( 'Post navigation', 'ascent' ); ?></h1>
-	<ul class="pager">
-
-	<?php if ( is_single() ) : // navigation links for single posts ?>
-
-	    <?php previous_post_link( '<li class="nav-previous previous">%link</li>', '<span class="meta-nav">' . _x( '&larr;', 'Previous post link', 'ascent' ) . '</span> %title' ); ?>
-	    <?php next_post_link( '<li class="nav-next next">%link</li>', '%title <span class="meta-nav">' . _x( '&rarr;', 'Next post link', 'ascent' ) . '</span>' ); ?>
-
-	<?php elseif ( $wp_query->max_num_pages > 1 && ( is_home() || is_archive() || is_search() ) ) : // navigation links for home, archive, and search pages ?>
-
-	    <?php if ( get_next_posts_link() ) : ?>
-	    <li class="nav-previous previous"><?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Older posts', 'ascent' ) ); ?></li>
-	    <?php endif; ?>
-
-	    <?php if ( get_previous_posts_link() ) : ?>
-	    <li class="nav-next next"><?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&rarr;</span>', 'ascent' ) ); ?></li>
-	    <?php endif; ?>
-	<?php endif; ?>
-	</ul>
+	    <h1 class="screen-reader-text"><?php _e( 'Post navigation', 'ascent' ); ?></h1>
     </nav><!-- #<?php echo esc_html( $nav_id ); ?> -->
     <?php
 }
