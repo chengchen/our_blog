@@ -26,7 +26,14 @@
 	
 	<div class="post-content-wrap col-sm-12 col-md-10">
 	    <header class="page-header">
-		<h1 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
+		<h1 class="entry-title">
+		  <a href="<?php the_permalink(); ?>" rel="bookmark">
+		    <?php the_title(); ?>
+		    <?php if ( empty(trim(get_the_title())) ) : ?>
+		      <?php the_time('F j, Y'); ?>
+		    <?php endif; ?>
+		  </a>
+		</h1>
 		<span class="entry-author">
 		    <?php _e('Posted by', 'ascent') ?>
 		    <span class="author vcard entry-author-link">
@@ -58,7 +65,7 @@
 		    <?php endif; ?>
 		<?php endif; ?>
 		
-		<?php the_excerpt(); ?>
+		<?php the_content(); ?>
 		
 		<?php
 		    wp_link_pages( array(

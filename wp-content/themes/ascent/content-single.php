@@ -18,7 +18,12 @@
 	
 	<div class="post-content-wrap col-sm-12 col-md-10">
 	    <header class="page-header">
-		<h1 class="entry-title"><?php the_title(); ?></h1>
+		<h1 class="entry-title">
+		  <?php the_title(); ?>
+      <?php if ( empty(trim(get_the_title())) ) : ?>
+        <?php the_time('F j, Y'); ?> / <?php the_time(); ?>
+      <?php endif; ?>
+		</h1>
 		 <?php if ( 'post' == get_post_type() ) : ?>
 		    <span class="entry-author">
 			<?php _e('Posted by', 'ascent') ?>
