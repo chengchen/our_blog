@@ -257,7 +257,7 @@ function optionsframework_options() {
 		'name' => __('Slider Image 1', 'ascent'),
 		'desc' => __('Upload slider image 1.', 'ascent'),
 		'id' => 'slider_image_1',
-		'std' => get_template_directory_uri() . '/includes/images/banner.jpg',
+		'std' => get_template_directory_uri() . '/includes/images/banner.png',
 		'type' => 'upload');
 	$options[] = array(
 		'name' => __('Slider Description 1', 'ascent'),

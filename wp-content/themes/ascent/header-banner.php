@@ -32,7 +32,7 @@
     <?php if(of_get_option('default_banner_image')): ?>
 	<img src="<?php echo of_get_option('default_banner_image'); ?>" alt="<?php bloginfo( 'name' ); ?>-Banner">
     <?php else: ?>
-	<img src="<?php echo get_template_directory_uri() . '/includes/images/banner.jpg'?>" alt="<?php bloginfo( 'name' ); ?>-Banner">
+	<img src="<?php echo get_template_directory_uri() . '/includes/images/banner.png'?>" alt="<?php bloginfo( 'name' ); ?>-Banner">
     <?php endif; ?>
     </div>
 <?php endif; ?>
