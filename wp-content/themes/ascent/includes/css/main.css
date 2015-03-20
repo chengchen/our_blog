@@ -330,6 +330,13 @@ a, a:link {
 .site-branding {
     padding-top: 0;
 }
+.site-title-xs {
+    width: 100%;
+    font-size: 30px;
+    position: relative;
+    top: 43px;
+    color: #4d5969;
+}
 .site-branding h1.site-title a {
     font-weight: bold;
     color: #4d5969;
@@ -510,9 +517,6 @@ nav.main-menu ul > li ul li ul {
 nav.main-menu ul .current_page_item > a {
   text-decoration: none;
   border-bottom: 2px solid #4d5969;
-}
-.mean-container a.meanmenu-reveal {
-  background: #bc5260;
 }
 .pager li > a:hover, .pager li > a:focus {
   background-color: #bc5260;
@@ -1107,10 +1111,12 @@ label {
 	padding: 0;
     }
     .post-meta-info .entry-meta .comments_count a {
-	background: none;
+	background: #C77282;
 	display: inline;
-	color: #3A3C41;
-	padding: 0 0 0 10px;
+	color: #fff;
+	padding: 0 7px 0 7px;
+    border-radius: 5px;
+    margin-left: 10px;
     }
 }
 
@@ -1154,14 +1160,9 @@ label {
     .site-navigation {
 	width: 100%;
     }
-    
     .mean-container .mean-bar {
 	margin-top: 0px;
 	min-height: inherit;
-	background-color: #7c90a9;
-    }
-    .mean-container .mean-bar .meanmenu-reveal {
-      background: #7c90a9;
     }
     .mean-container .mean-bar .mean-nav ul li a {
       border-color: rgba(255,255,255,0.1);

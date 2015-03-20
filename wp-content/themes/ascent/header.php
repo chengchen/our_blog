@@ -28,7 +28,7 @@
         <div class="header-bottom-inner">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-3">
+                    <div class="col-sm-3 hidden-xs">
                         <div id="logo">
                             <div class="site-header-inner col-sm-12">
                                 <div class="site-branding">
@@ -55,6 +55,7 @@
 				));
 				?>
 			    </nav>
+			    <div class="text-center site-title-xs visible-xs"><?php bloginfo( 'name' ); ?></div>
 			    <div id="responsive-menu-container"></div>
                         </div><!-- .site-navigation -->
                     </div><!--.col-sm-9-->
