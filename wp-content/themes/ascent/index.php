@@ -27,8 +27,11 @@ get_header(); ?>
 				get_template_part( 'content', get_post_format() );
 			?>
 		<?php endwhile; ?>
-		<?php ascent_content_nav( 'nav-below' ); ?>
 
+    <div class="alignright"><?php next_posts_link( 'Older >>' ); ?></div>
+    <div class="alignright"><?php previous_posts_link( '<< Newer' ); ?></div>
+
+		<?php ascent_content_nav( 'nav-below' ); ?>
 	<?php else : ?>
 
 		<?php get_template_part( 'no-results', 'index' ); ?>
