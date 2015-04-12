@@ -39,7 +39,7 @@ get_header(); ?>
 	<?php endif; ?>
     </div>
     
-    <div class="col-sm-12 col-md-3">
+    <div class="col-sm-12 col-md-3 hidden-xs">
         <?php get_sidebar(); ?>
     </div>
 </div>
